@@ -5,7 +5,7 @@ autojoin:
   '#hurix.de': 1
   '#css.de': 1
   '#team-box.net': 1
-bucketlog: /home/simon/bucket/bucketlog.log
+bucketlog: /home/simon/xnorfz/bucketlog.log
 control_channel: '#hurix.de'
 db_dsn: DBI:mysql:database=hurixsql6;host=localhost
 db_password: kh4l3a
@@ -19,7 +19,7 @@ ignore:
   flyingferret: 1
 irc_name: xnorfz
 logchannel: '#hurix.de'
-logfile: /home/simon/bucket/logfile.log
+logfile: /home/simon/xnorfz/logfile.log
 main_channel: '#html.de'
 nick: xnorfz
 qauth: Simown
