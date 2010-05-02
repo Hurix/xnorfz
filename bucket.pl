@@ -62,7 +62,7 @@ my $configfile = shift || "bucket.yml";
 my $config     = LoadFile($configfile);
 my $nick       = &config("nick") || "xnorfztn";
 my $qauth      = &config("qauth") || "Simown";
-my $qpass      = &config("qpass") || "bKGoDVXg";
+my $qpass      = &config("qpass") || "";
 $nick = DEBUG ? ( &config("debug_nick") || "xnorfzndebg" ) : $nick;
 my $channel =
   DEBUG
