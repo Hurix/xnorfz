@@ -16,6 +16,9 @@
 #  Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #
 # $Id: bucket.pl 685 2009-08-04 19:15:15Z dan $
+#
+#  modified 2010  Simon Jerabeck - simon@hurix.de
+#  see CHANGES for verbose information
 
 package Bucket;
 
@@ -37,6 +40,9 @@ use URI::Escape;
 use lib qw( lib );
 use Orakel;
 $Data::Dumper::Indent = 1;
+
+use Proc::PID::File;
+die "Already running!" if Proc::PID::File->running(dir => '/home/simon/xnorfz', name => 'bucket');
 
 # try to load Math::BigFloat if possible
 my $math = "";

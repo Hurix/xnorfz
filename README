@@ -1,0 +1,68 @@
+DESCRIPTION
+
+    This is the project of an ircbot, named xnorfz,
+    (re)incarnating xkcd-bucket and Orakel (a simple helper bot).
+
+    For a nice documentation on the functionality of xnorfz, take a look at:
+        - http://wiki.xkcd.com/irc/Bucket#Docs
+        - http://www.html-q.net/orakel/
+
+    Any bugs, feature requests or questions should be directed to Hurix at
+    irc.quakenet.org.
+    " This is kindof a perl-playground for me and its sole purpose is to
+      entertain me and make me learn perl.
+      If you haven't been entertained or didn't recieve any help with the
+      functionality of this bot, it's not its purpose to do so!           "
+
+INSTALL
+
+    Download the source from here or fork it.
+    
+    Setup a database (MySQL recommended) and a user for this bot.
+    Create the tables with the bucket.sql and insert the samples
+    with the sample.sql.
+    
+    Edit your config files sample.yml and orakel.yml as much as you need.
+    Rename sample.yml to bucket.yml.
+
+    Install perl modules dependencies, listed below (this might take a while).
+
+    Run it and start adding factoids.
+
+    Note that there isn't a full database publicly available.
+    THIS BOT PROVIDES ONLY CORE FUNCTIONALITY OF XKCD-BUCKET.
+
+    If you encounter errors or need verbose advice, go to buckets
+    installation instructions (http://wiki.xkcd.com/irc/Bucket#Installing).
+
+    
+DEPENDENCIES
+
+    This perl script depends on the following modules:
+
+    perl 5.10
+    Config::Any
+    YAML
+    REST::Google::Search
+    WWW::Google::Calculator
+    WWW::Google::PageRank
+    WebService::Validator::HTML::W3C
+    WebService::Validator::CSS::W3C
+    URI::Escape
+    HTML::Strip
+    HTML::Entities
+    POE
+    POE::Component::IRC
+    POE::Component::SimpleDBI
+    Lingua::EN::Conjugate
+    Lingua::EN::Inflect
+    Lingua::EN::Syllable
+
+    Install them by using cpan.
+
+AUTHOR
+    
+    Everything in this project is an enhancement or adaptation of two bots,
+    written by memowe and zigdon. Thanks for sharing your source.
+    All further enhancements and changes (see CHANGES) are written by
+    Simon 'Hurix' Jerabeck (simon@hurix.de) if not explicitly refuted.

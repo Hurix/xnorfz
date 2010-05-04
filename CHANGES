@@ -1,0 +1,10 @@
+Small changes and added it up to http://github.com/Hurix/xnorfz
+
+    - added PID-manager (ensure the bot is running with cron)
+    - added sample.yml config
+    - added files: CHANGES, README, rgbcolors.yml and sample.sql
+
+Initial port from http://github.com/zigdon/xkcd-Bucket 04/25/2010
+
+    - several minor changes for adaptation to my environment (Qnet)
+    - added Orakel

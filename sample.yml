@@ -1,0 +1,33 @@
+# rename this file or change line in bucket.pl
+# edit this file to your needs
+
+autojoin:
+  '#html.de': 1
+  '#hurix.de': 1
+
+bucketlog: /your/path/to/xnorfz/bucketlog.log
+control_channel: '#hurix.de' #best to have one invite only
+db_dsn: DBI:mysql:database=dbname;host=localhost
+db_password: yoursecretpass
+db_username: dbname
+exclude:
+    q: 1
+
+hide_hostmask: 1
+hostname: huhu.hurix.de
+ignore: #other bots to ignore
+    billygoat: 1
+    flyingferret: 1
+
+irc_name: xnorfz #full name
+logchannel: '#hurix.de'
+logfile: /your/path/to/xnorfz/logfile.log
+main_channel: '#html.de'
+
+nick: xnorfz
+qauth: yourQauth
+qpass: yoursecretQpass
+server: irc.quakenet.org
+sylcheat: {}
+timeout: 60
+username: xnorfz #identd(-ish)

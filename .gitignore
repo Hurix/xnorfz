@@ -1,3 +1,6 @@
 logfile*
+*.log
 bucket.yml
 *.sw[a-p]
+rgbcolors.txt
+*.pid
